@@ -1,6 +1,6 @@
 {
   "name": "dash",
-  "homepage": "https://github.com/awoyaledolapo/dashboard/",
+  "homepage": "https://awoyaledolapo.github.io/dashboard/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predepoly":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predepoly": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
